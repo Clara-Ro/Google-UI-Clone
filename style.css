@@ -1,0 +1,67 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+a:link{
+	color:#000000de;
+	text-decoration: none;
+	font-stretch: 4px;
+}
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.tudo div *{
+	margin-left: 20px;
+}
+.tudo{
+	display: flex;;
+	flex-direction: row;
+	justify-content: flex-end;
+	vertical-align: middle;
+	width: 100vw;
+	margin: 12px;
+	margin-right: 33px;
+}
+.icones{
+	padding: 4px;
+	cursor: pointer;
+
+}
+img{
+ 	aspect-ratio:auto 270/92;
+}
+.label input{
+	display: flex;
+	width: 500px;
+	height: 34px;
+	font-size: 16px;
+	border-radius: 40px;
+	border: solid 1px ;
+	border-color: #c9bdb5;
+	outline: none;
+}
+.linha {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+}
+
+.linha button{
+	padding:0px 16px;
+	font-size: 14px;
+	margin:11px 4px;
+	border: 1px solid;
+	border-color: #f8f9fa;
+	border-radius: 4px;
+	background-color: #f8f9fa;
+	line-height: 27px;
+	height: 32px;
+	min-width: 54px;
+	cursor: pointer;
+	font-family: arial;
+}
